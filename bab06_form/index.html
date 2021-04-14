@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+ background:#dddd
+    }
+
+  form {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    max-width: 400px;
+    height:300px;
+    background:#e4e4e4;
+    margin:40px auto;
+    
+  }
+  input,label {
+    text-align:left;
+    width: 80%;
+    padding:4px;
+    margin-bottom: 5px;
+  }
+
+  </style>
+  <title>FORM ( ESENSTIAL)</title>
+</head>
+<body>
+
+  <form class="signup-form">
+    <h2>FORM SAMPLE :</h2>
+    <label for="username"> username </label>
+    <input type="text" id="username" placeholder="username"/>
+    <label> password:</label>
+    <input type="text" id="password" placeholder="password" />
+    <input type="submit" value="submit"/>
+    <div class="my-msg" ></div>
+  </form>
+  <script src="./01_validation.js"></script>
+  <script src="./02_keyboard_event.js"></script>
+</body>
+</html>

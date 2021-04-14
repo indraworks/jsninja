@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parent Children Sibling</title>
+</head>
+<body>
+   <h1>The DOM</h1>
+  <article>
+     <h2>Article Title</h2>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam?</p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam?</p>
+    <div>Writen by The Ninja</div>
+ 
+  </article>
+
+  <script src="./07_app.js"></script>
+</body>
+</html>
+<!-- hirarki DOM 
+  sprti yg saya bilang sblumnya DOM ,pada html page dilihat sbgai kumpulan node tag oleh dirinya
+  object model dan tiap node<tag> tadi bya label text namanya nodetext
+    nah tiap2 node tadi ada relasi kalau keatas dia disebut parent mnunujk node diatasnya
+    kalau dia beda tag tapi satu level disbut sibling  kalau di bawahnya dia 
+    maka disebut children gambarannya 
+    html(root)
+      |            |
+      head 
+         |         header
+      title      |      |     |    |div
+                 body    h3   div
+                  |      |    |   |
+                  p      p     p  p
+body h3 div relasinya disebut sibling
+p dgn div dsbut children relasi 
+p dgn p selevel disebut sibling
+   
+kit aakna coba utk mmgexplore yg didalam article (turunannnya  sibling,parent,children) 
+kita mau select smua yg ada di article dgn query kita bisa langsubg 
+gak perlu queryselect thd  h2,p,div tapi bisa lewat article dan children turunannya
+jadi gak perlu 3x utk lakukan query trpisan tapi langsung bisa 
+prtma kita grab parenntya query select('article') stlahnya 
+variable.chidlre akan muncuk chldren yg di dibawha article
+nah hasil akan kluar htmlcolectuon(7) sbanya 7 nah
+tapi gak bisa kita pakai dgn foreach karena bukan array 
+utk itu kita ubah aja dulu kita copied htmlcollection kdalam bntuk 
+array
+array.from('')
+ -->

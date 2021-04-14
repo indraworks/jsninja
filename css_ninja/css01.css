@@ -1,0 +1,73 @@
+/* #header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#header h1 {
+  font-size: 32px;
+}
+#header p {
+  color: blue;
+} */
+/* 
+
+//bahasan yg ke-2 
+/*Targeting element  hanya tag saja  TAG*/
+/* start*/
+/* p {
+  font-size: 12px;
+  color: red;
+}
+a {
+  text-decoration: underline;
+  color: blue;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+div {
+  width: 100%; /*seluruh halaman lebarnya */
+/* background-color: grey;
+} */
+/* end */
+/*bagian 3 */
+/* class and ID */
+
+/*////// targetin classes dan _id    ////// */
+
+/* //////// end targeting class and id ///////////*/
+/* h2 {
+  font-size: 24px;
+}
+/* dihtml id di cssnya = # ,harus uniq dlm 1 page */
+/* #contact-header {
+  font-size: 10px;
+  color: red;
+}
+.deck {
+  color: purple;
+} */
+/* jika tanpa display: block maka dia akan akesamping karena span semua  */
+/* display block itu sndiri2  */
+/* span {
+  color: orangered;
+  display: block;
+} */ 
+
+/* /////// CSS conflict and cascade ///// */
+/*
+
+
+
+*/
+
+
+
+
+

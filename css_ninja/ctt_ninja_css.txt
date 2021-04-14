@@ -1,0 +1,4 @@
+class dan ids di css:
+class bisa digunakan multiple times di dlm sbuah page
+id's gak bisa digunakan dia hanya 1 buah per page saja 
+

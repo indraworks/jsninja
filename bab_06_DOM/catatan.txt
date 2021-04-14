@@ -1,0 +1,35 @@
+yang dipelajari disni adalah add content to the browser
+                               -change css styles
+                            - react user efect ( cick button) dan 
+                            -cool efect like pop upper
+DOM itu sbnarnya adalah javascript yg bretinteraksi dgn object truncatechars_html
+supaya dapat mengubahnya atau manipulasi obj2 yg ada di javascript
+pelajari dulu jsninja css syntaxt sblum ksini :D  
+salah yg diatas ralat 
+ralat tgl 15 dec 2020
+DOM adalah document obect model maksudnya bagmana jadi ini dibuat oleh browser,browser lah pmbuat smua component yg ada di 
+html nah obecjt2 yg ada di html broswer in berupa model dan trsimpan dalam sbuah library oject dan pihak luar
+mmanggilnya DOM,Document object Model,anda ketik di conesole document akan kluar smua apa obet ada di dlmmya
+nah dgn adnya DOM ini maka pihak luar bisa brinteraksi mengakses obejct2 tadi dgn metode 
+mmbuat componetn2 hmtl2nya demikian sklias tetang DOM
+utk mnegatahu object dan metode diconsole ketik > document
+stlahnya jelas terlihat smua hirarki dari obecjt2 model ini dan html/page adalah represntasi dari obejct model trsebut
+kmudian coba ketik document.  dari dot trsbut banyak metode atau atribute contoh kita ketik docuemnt.location 
+maka akan terjawab locasi dari broser kita sbb:
+Location {ancestorOrigins: DOMStringList, href: "http://127.0.0.1:5500/bab_06_DOM/index.html", 
+origin: "http://127.0.0.1:5500", protocol: "http:", host: "127.0.0.1:5500", …}
+
+jadi banyak skli ada ratusan dari metoda dan atribute
+
+nah pengmbarannya html dildm DOM adalah sbuah node2 hirarki sprti ini :
+
+  html(node tree)
+   |            |
+ header        
+   |
+   title
+
+(nanti lanjut lagi)
+
+
+
